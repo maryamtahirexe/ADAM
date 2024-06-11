@@ -1,0 +1,129 @@
+.signup-page {
+  display: flex;
+  height: 100vh;
+  background-color: #2c003e;
+  border: 40px solid #40006f; /* Increase border width */
+  border-radius: 10px;
+  overflow: hidden; /* Ensure no overflow */
+}
+
+.left-panel {
+  background: linear-gradient(45deg, #6a11cb, #8F0178);
+  width: 35%; /* Adjust width as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  justify-content: flex-start; /* Align items to the top */
+  color: white;
+  padding: 20px;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column; /* Display items vertically */
+  align-items: flex-start; /* Align items to the left */
+  margin-top: 0; /* Remove top margin */
+}
+
+.logo-content {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.logo h1 {
+  margin-left: 10px; /* Add spacing between the image and text */
+}
+
+.logo p {
+  margin-top: 10px; /* Add space between logo and tagline */
+}
+
+.right-panel {
+  background-color: white;
+  width: 65%; /* Adjust width as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative; /* Ensure absolute positioning works */
+}
+
+.main-icon {
+  width: 100%;
+  max-width: 475px;
+  position: absolute;
+  left: -1%;
+  transform: translateX(-50%);
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group input {
+  width: 48%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.create-account-btn,
+.login-link {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+}
+
+.create-account-btn {
+  background-color: #40006f;
+  color: white;
+  border-radius: 5px;
+}
+
+.login-link {
+  background: none;
+  color: #40006f;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+  display: inline; /* Ensure the button is inline */
+  width: auto; /* Adjust width to auto */
+  padding: 0; /* Remove padding */
+  margin: 0 0 0 5px; /* Add left margin to create space */
+}
+
+.small-image {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  margin-right: 10px; /* Add some spacing between the image and text */
+}
+
+.login-text {
+  display: flex; /* Display items in a row */
+  align-items: center; /* Align items vertically */
+}
